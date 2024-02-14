@@ -1,5 +1,8 @@
 {
   "page": {
     "hello-world": "Hello world"
+  },
+  "locales": {
+    "change": "Da"
   }
 }
