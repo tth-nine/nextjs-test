@@ -9,7 +9,7 @@ export default function LocaleSwitcher() {
   const differentLocale = locale === locales[0] ? "en": "da"
   return (
     <section>
-      <Link locale={differentLocale} href="/" >{t('locales.change')}</Link>
+      <Link locale="da" href="/" >{t('locales.change')}</Link>
     </section>
   )
 }
