@@ -1,7 +1,9 @@
 import React from 'react'
+import { useTranslations } from 'next-intl';
 
 export default function MyComponent() {
-  return (
-    <h1>HELLO WORLD</h1>
-  )
+    const t = useTranslations();
+    return (
+        <h1>{t('page.hello-world')}</h1>
+    )
 }
